@@ -1,0 +1,45 @@
+html {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: rgb(38, 211, 255);
+  text-shadow: 0 0 1px #fff;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+table th {
+  border-bottom: 3px solid rgb(38, 132, 166);
+}
+
+table td {
+  border-left: 3px solid rgb(38, 132, 166);
+}
+
+th {
+  color: rgb(255, 211, 38);
+}
+
+tr:hover {
+  color: rgb(211, 255, 38);
+  text-shadow: 0 0 2px rgb(232, 255, 58);
+  background-color: rgba(58, 189, 255, 0.3);
+}
+
+td:hover {
+  color: rgb(255, 89, 38);
+  text-shadow: 0 0 2px rgb(255, 109, 58);
+  background-color: rgba(58, 189, 255, 0.4);
+}
+
+body {
+  background-color: #000;
+}
